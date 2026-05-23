@@ -1,0 +1,174 @@
+{
+  "sections": [
+    {
+      "metadata": {
+        "section_id": "sec_01",
+        "title": "Corporate Structure and Ownership",
+        "word_count": 385,
+        "target_words": 400,
+        "retry_count": 0
+      },
+      "content": "Acme Corp SA is a Swiss financial services company registered with the Swiss Commercial Registry under registration number CHE-123.456.789. The company was incorporated on 15 March 2010 and maintains its registered office at Bahnhofstrasse 42, 8001 Zürich, Switzerland. Its stated corporate purpose encompasses financial services, asset management, and investment advisory activities.\n\nThe company operates with a clear governance structure led by a Board of Directors comprising three members: Hans Mueller serves as Chairman, Maria Schmidt as Chief Executive Officer, and Pierre Dubois as Chief Financial Officer. This lean board structure is typical for Swiss financial services firms of this size.\n\nRegarding ownership structure, Acme Corp SA has three principal shareholders. The Mueller Family Trust holds the largest stake at 45%, establishing Hans Mueller as the controlling Ultimate Beneficial Owner (UBO). Schmidt Holdings AG holds 30% of shares, while the remaining 25% is held by public shareholders. The Mueller Family Trust is controlled by Hans Mueller, a Swiss national born in 1965, who therefore qualifies as the primary UBO under Swiss and EU beneficial ownership thresholds requiring disclosure of natural persons with ownership or control exceeding 25%.\n\nThe company has established an international presence through wholly-owned subsidiaries in Luxembourg and Singapore, indicating a cross-border operational footprint consistent with its wealth management and securities trading business lines. As of the 2023 Annual Report, the company manages assets under management (AUM) of CHF 2.3 billion, with revenue distributed across Asset Management (45%), Securities Trading (35%), and Advisory Services (20%).",
+      "claims": [
+        {
+          "claim_id": "c_01_01",
+          "statement": "Acme Corp SA was registered on 15 March 2010 with registration number CHE-123.456.789",
+          "evidence_ids": ["ev_001"],
+          "confidence": 1.0
+        },
+        {
+          "claim_id": "c_01_02",
+          "statement": "Mueller Family Trust holds 45% ownership and is controlled by Hans Mueller",
+          "evidence_ids": ["ev_003"],
+          "confidence": 1.0
+        },
+        {
+          "claim_id": "c_01_03",
+          "statement": "The company has subsidiaries in Luxembourg and Singapore",
+          "evidence_ids": ["ev_002"],
+          "confidence": 1.0
+        },
+        {
+          "claim_id": "c_01_04",
+          "statement": "Total AUM is CHF 2.3 billion",
+          "evidence_ids": ["ev_002"],
+          "confidence": 1.0
+        }
+      ],
+      "checker_status": "pass",
+      "checker_notes": ["All must_include items present", "Word count within tolerance"],
+      "changelog": []
+    },
+    {
+      "metadata": {
+        "section_id": "sec_02",
+        "title": "Regulatory Compliance History",
+        "word_count": 340,
+        "target_words": 350,
+        "retry_count": 0
+      },
+      "content": "Acme Corp SA operates under the regulatory oversight of the Swiss Financial Market Supervisory Authority (FINMA). The company holds an active securities dealer license (Category 2), originally issued by FINMA on 01 July 2012. This license authorizes the company to conduct securities trading activities within Switzerland and, subject to applicable cross-border frameworks, in other jurisdictions. The most recent supervisory review was conducted in December 2023, with the license remaining in good standing.\n\nA review of regulatory history identified one notable compliance matter. In 2019, Acme Corp SA received a warning letter from FINMA concerning delayed suspicious activity reporting. This matter did not escalate to formal enforcement action or financial penalties. According to available information, the company subsequently enhanced its compliance procedures to address the identified deficiency. No pending investigations or ongoing regulatory proceedings have been identified.\n\nSanctions screening was conducted against major international sanctions lists, including the U.S. Office of Foreign Assets Control (OFAC) Specially Designated Nationals (SDN) List. The screening covered the company entity, key individuals (Hans Mueller, Maria Schmidt, Pierre Dubois), and significant shareholders (Mueller Family Trust, Schmidt Holdings AG). No matches were identified, indicating no current sanctions exposure.\n\nWhile the company holds an active FINMA license, specific information regarding additional compliance certifications (such as ISO standards or industry body memberships) was not available in the reviewed documentation. This represents a partial information gap that may warrant follow-up inquiry.",
+      "claims": [
+        {
+          "claim_id": "c_02_01",
+          "statement": "Acme Corp SA holds an active FINMA securities dealer license (Category 2) issued on 01 July 2012",
+          "evidence_ids": ["ev_004"],
+          "confidence": 1.0
+        },
+        {
+          "claim_id": "c_02_02",
+          "statement": "In 2019, the company received a FINMA warning letter for delayed suspicious activity reporting",
+          "evidence_ids": ["ev_005"],
+          "confidence": 0.9
+        },
+        {
+          "claim_id": "c_02_03",
+          "statement": "No matches found in OFAC SDN List screening",
+          "evidence_ids": ["ev_006"],
+          "confidence": 1.0
+        }
+      ],
+      "checker_status": "pass",
+      "checker_notes": ["All must_include items present", "Word count within tolerance"],
+      "changelog": []
+    },
+    {
+      "metadata": {
+        "section_id": "sec_03",
+        "title": "Risk Assessment and Recommendations",
+        "word_count": 295,
+        "target_words": 300,
+        "retry_count": 0
+      },
+      "content": "Based on the due diligence findings, Acme Corp SA is assessed as presenting a MODERATE overall risk profile. This assessment reflects a balance of mitigating factors and identified risk indicators.\n\nKey risk indicators include the 2019 FINMA warning regarding delayed suspicious activity reporting, which suggests historical weakness in AML processes. Additionally, the concentrated ownership structure (Mueller Family Trust at 45%) creates key person dependency. The company's cross-border operations in Singapore may introduce additional regulatory complexity.\n\nMitigating factors support a moderate rather than elevated risk rating. Switzerland presents low jurisdictional risk as a well-regulated financial center with strong AML frameworks. The company maintains an active FINMA license with recent supervisory review (December 2023). Clean sanctions screening results across all relevant parties provide comfort regarding current exposure. The diverse client base (60% institutional) and established revenue streams indicate operational stability.\n\nThe inherent risk for Swiss securities dealers with similar profiles is assessed as moderate, consistent with internal risk assessment frameworks.\n\nRecommended monitoring approach:\n- Standard review cycle: Annual enhanced due diligence refresh\n- Trigger events requiring immediate review: Regulatory actions, ownership changes >10%, expansion into new jurisdictions, negative media coverage\n- Focus areas for ongoing monitoring: Regulatory status, sanctions screening, beneficial ownership verification, adverse media screening\n\nNote: Specific monitoring schedules and detailed trigger thresholds should be determined according to applicable internal policies and regulatory requirements. Additional inquiry regarding compliance certifications may be warranted to complete the compliance picture.",
+      "claims": [
+        {
+          "claim_id": "c_03_01",
+          "statement": "Overall risk rating is MODERATE",
+          "evidence_ids": ["ev_007"],
+          "confidence": 1.0
+        },
+        {
+          "claim_id": "c_03_02",
+          "statement": "2019 FINMA warning is a key risk indicator",
+          "evidence_ids": ["ev_005"],
+          "confidence": 0.9
+        },
+        {
+          "claim_id": "c_03_03",
+          "statement": "Switzerland presents low jurisdictional risk",
+          "evidence_ids": ["ev_007"],
+          "confidence": 1.0
+        }
+      ],
+      "checker_status": "pass",
+      "checker_notes": ["All must_include items present", "Word count within tolerance"],
+      "changelog": []
+    }
+  ],
+  "transitions": [
+    {
+      "from_section_id": "sec_01",
+      "to_section_id": "sec_02",
+      "transition_text": "Having established the corporate structure and beneficial ownership of Acme Corp SA, we now examine the company's regulatory standing and compliance history under Swiss financial market supervision."
+    },
+    {
+      "from_section_id": "sec_02",
+      "to_section_id": "sec_03",
+      "transition_text": "With the regulatory landscape documented, including both the active licensing status and the historical compliance matter, we can now synthesize these findings into an overall risk assessment and monitoring recommendations."
+    }
+  ],
+  "citations": [
+    {
+      "citation_id": "[1]",
+      "evidence_id": "ev_001",
+      "source_text": "Swiss Commercial Registry, Acme Corp SA - Commercial Registry Extract, accessed 15 January 2024",
+      "used_in_sections": ["sec_01"]
+    },
+    {
+      "citation_id": "[2]",
+      "evidence_id": "ev_002",
+      "source_text": "Acme Corp SA Annual Report 2023, Company Filing, 30 March 2024",
+      "used_in_sections": ["sec_01", "sec_03"]
+    },
+    {
+      "citation_id": "[3]",
+      "evidence_id": "ev_003",
+      "source_text": "Ownership Structure Filing, Transparency Register, 28 February 2024",
+      "used_in_sections": ["sec_01", "sec_03"]
+    },
+    {
+      "citation_id": "[4]",
+      "evidence_id": "ev_004",
+      "source_text": "FINMA Licensed Institutions Register, accessed 01 January 2024",
+      "used_in_sections": ["sec_02"]
+    },
+    {
+      "citation_id": "[5]",
+      "evidence_id": "ev_005",
+      "source_text": "Swiss Financial News - Regulatory Updates, Financial News Archive, 15 June 2019",
+      "used_in_sections": ["sec_02", "sec_03"]
+    },
+    {
+      "citation_id": "[6]",
+      "evidence_id": "ev_006",
+      "source_text": "OFAC Sanctions Search Results, accessed 01 April 2024",
+      "used_in_sections": ["sec_02"]
+    },
+    {
+      "citation_id": "[7]",
+      "evidence_id": "ev_007",
+      "source_text": "Internal Risk Assessment Framework, Internal Policy, 01 January 2024",
+      "used_in_sections": ["sec_03"]
+    }
+  ],
+  "coherence_notes": [
+    {
+      "note_type": "terminology_drift",
+      "sections_involved": ["sec_01", "sec_02"],
+      "description": "The term 'AML' is used in sec_02 but not defined. Consider adding to terminology section or defining on first use.",
+      "severity": "info"
+    }
+  ],
+  "total_word_count": 1020
+}

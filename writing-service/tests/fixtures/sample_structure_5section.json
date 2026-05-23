@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "report_type": "due_diligence",
+    "subject_name": "Acme Corp SA",
+    "subject_type": "company",
+    "jurisdiction": "Switzerland",
+    "purpose": "Enhanced due diligence for high-value client onboarding",
+    "audience": "compliance team",
+    "tone": "formal"
+  },
+  "sections": [
+    {
+      "section_id": "sec_01",
+      "title": "Executive Summary",
+      "purpose": "High-level overview of due diligence findings",
+      "requirements": [
+        "Key findings summary",
+        "Overall risk assessment",
+        "Critical issues requiring attention"
+      ],
+      "must_include": [
+        "Risk rating",
+        "Recommendation summary"
+      ],
+      "target_words": 250,
+      "depends_on": [],
+      "evidence_types": ["internal_assessment"]
+    },
+    {
+      "section_id": "sec_02",
+      "title": "Corporate Structure and Ownership",
+      "purpose": "Document the legal structure and identify beneficial owners",
+      "requirements": [
+        "Legal entity type and registration details",
+        "Ownership structure including intermediate holding companies",
+        "Ultimate beneficial owners with ownership percentages",
+        "Board composition and key management personnel"
+      ],
+      "must_include": [
+        "Registration number",
+        "UBO identification",
+        "Ownership chart description"
+      ],
+      "target_words": 400,
+      "depends_on": [],
+      "evidence_types": ["corporate_registry", "annual_report", "ownership_filing"]
+    },
+    {
+      "section_id": "sec_03",
+      "title": "Business Activities and Operations",
+      "purpose": "Understand the nature and scope of business operations",
+      "requirements": [
+        "Primary business activities",
+        "Geographic footprint and markets served",
+        "Key products and services",
+        "Revenue sources and client base"
+      ],
+      "must_include": [
+        "Business description",
+        "Operating jurisdictions"
+      ],
+      "target_words": 350,
+      "depends_on": [],
+      "evidence_types": ["annual_report", "website", "news_article"]
+    },
+    {
+      "section_id": "sec_04",
+      "title": "Regulatory and Compliance Assessment",
+      "purpose": "Evaluate regulatory standing and compliance history",
+      "requirements": [
+        "Licensing and regulatory authorizations",
+        "Historical regulatory actions",
+        "Compliance program assessment",
+        "Sanctions screening results"
+      ],
+      "must_include": [
+        "License status",
+        "Sanctions screening result"
+      ],
+      "target_words": 400,
+      "depends_on": ["sec_02"],
+      "evidence_types": ["regulatory_filing", "sanction_list", "compliance_report"]
+    },
+    {
+      "section_id": "sec_05",
+      "title": "Risk Analysis and Recommendations",
+      "purpose": "Synthesize findings into actionable risk assessment",
+      "requirements": [
+        "Risk factor analysis",
+        "Mitigating factors",
+        "Residual risk assessment",
+        "Monitoring and review recommendations"
+      ],
+      "must_include": [
+        "Risk rating with justification",
+        "Monitoring frequency recommendation"
+      ],
+      "target_words": 350,
+      "depends_on": ["sec_02", "sec_03", "sec_04"],
+      "evidence_types": ["risk_assessment", "internal_policy"]
+    }
+  ],
+  "global_instructions": "Apply enhanced due diligence standards. Document all information gaps. Cross-reference findings across sections for consistency.",
+  "terminology": {
+    "UBO": "Ultimate Beneficial Owner - natural person with >25% ownership or control",
+    "PEP": "Politically Exposed Person",
+    "EDD": "Enhanced Due Diligence",
+    "CDD": "Customer Due Diligence"
+  }
+}

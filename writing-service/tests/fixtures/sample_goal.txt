@@ -1,0 +1,11 @@
+Generate a comprehensive KYC (Know Your Customer) compliance profile for Acme Corp SA, a Swiss-based financial services company.
+
+The report should assess:
+- Corporate structure and beneficial ownership
+- Regulatory compliance history
+- Business activities and geographic footprint
+- Risk indicators and red flags
+- Recommendations for ongoing monitoring
+
+Target audience: Compliance officers and risk management team
+Regulatory context: Swiss FINMA requirements, EU AML directives

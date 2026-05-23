@@ -1,0 +1,146 @@
+{
+  "query_results": [
+    {
+      "query_id": "q_001",
+      "results": [
+        {
+          "doc_id": "doc_001",
+          "title": "Acme Corp SA - Commercial Registry Extract",
+          "snippet": "Acme Corp SA, registered on 15 March 2010, Registration No. CHE-123.456.789. Registered office: Bahnhofstrasse 42, 8001 Zürich, Switzerland. Purpose: Financial services, asset management, and investment advisory.",
+          "source": "Swiss Commercial Registry",
+          "relevance_score": 0.95,
+          "doc_type": "corporate_registry",
+          "date": "2024-01-15"
+        },
+        {
+          "doc_id": "doc_002",
+          "title": "Acme Corp SA Annual Report 2023",
+          "snippet": "Board of Directors: Hans Mueller (Chairman), Maria Schmidt (CEO), Pierre Dubois (CFO). The company maintains subsidiaries in Luxembourg and Singapore.",
+          "source": "Company Filing",
+          "relevance_score": 0.88,
+          "doc_type": "annual_report",
+          "date": "2024-03-30"
+        },
+        {
+          "doc_id": "doc_003",
+          "title": "Ownership Structure Filing",
+          "snippet": "Ultimate Beneficial Owners: Mueller Family Trust (45%), Schmidt Holdings AG (30%), Public shareholders (25%). Mueller Family Trust is controlled by Hans Mueller (Swiss national, DOB 1965).",
+          "source": "Transparency Register",
+          "relevance_score": 0.92,
+          "doc_type": "ownership_filing",
+          "date": "2024-02-28"
+        }
+      ],
+      "total_found": 3,
+      "truncated": false
+    },
+    {
+      "query_id": "q_002",
+      "results": [
+        {
+          "doc_id": "doc_004",
+          "title": "FINMA Licensed Institutions Register",
+          "snippet": "Acme Corp SA holds a securities dealer license (Category 2) issued by FINMA on 01 July 2012. License status: Active. Last supervision date: December 2023.",
+          "source": "FINMA",
+          "relevance_score": 0.97,
+          "doc_type": "regulatory_filing",
+          "date": "2024-01-01"
+        },
+        {
+          "doc_id": "doc_002",
+          "title": "Acme Corp SA Annual Report 2023",
+          "snippet": "The company received no regulatory sanctions during the reporting period. Internal audit found no material compliance deficiencies.",
+          "source": "Company Filing",
+          "relevance_score": 0.75,
+          "doc_type": "annual_report",
+          "date": "2024-03-30"
+        },
+        {
+          "doc_id": "doc_005",
+          "title": "Swiss Financial News - Regulatory Updates",
+          "snippet": "In 2019, Acme Corp SA received a warning letter from FINMA regarding delayed suspicious activity reporting. The company has since enhanced its compliance procedures.",
+          "source": "Financial News Archive",
+          "relevance_score": 0.82,
+          "doc_type": "news_article",
+          "date": "2019-06-15"
+        },
+        {
+          "doc_id": "doc_006",
+          "title": "OFAC Sanctions Search Results",
+          "snippet": "Search performed for: Acme Corp SA, Hans Mueller, Maria Schmidt, Pierre Dubois, Mueller Family Trust, Schmidt Holdings AG. No matches found in OFAC SDN List.",
+          "source": "OFAC",
+          "relevance_score": 0.99,
+          "doc_type": "sanction_list",
+          "date": "2024-04-01"
+        }
+      ],
+      "total_found": 4,
+      "truncated": false
+    },
+    {
+      "query_id": "q_003",
+      "results": [
+        {
+          "doc_id": "doc_007",
+          "title": "Internal Risk Assessment Framework",
+          "snippet": "Financial services companies in Switzerland with securities dealer licenses carry moderate inherent risk. Key factors: jurisdiction risk (low for Switzerland), product complexity (medium), client base diversity.",
+          "source": "Internal Policy",
+          "relevance_score": 0.85,
+          "doc_type": "risk_assessment",
+          "date": "2024-01-01"
+        },
+        {
+          "doc_id": "doc_005",
+          "title": "Swiss Financial News - Regulatory Updates",
+          "snippet": "In 2019, Acme Corp SA received a warning letter from FINMA regarding delayed suspicious activity reporting. The company has since enhanced its compliance procedures.",
+          "source": "Financial News Archive",
+          "relevance_score": 0.70,
+          "doc_type": "news_article",
+          "date": "2019-06-15"
+        },
+        {
+          "doc_id": "doc_003",
+          "title": "Ownership Structure Filing",
+          "snippet": "Ultimate Beneficial Owners: Mueller Family Trust (45%), Schmidt Holdings AG (30%), Public shareholders (25%). Mueller Family Trust is controlled by Hans Mueller (Swiss national, DOB 1965).",
+          "source": "Transparency Register",
+          "relevance_score": 0.68,
+          "doc_type": "ownership_filing",
+          "date": "2024-02-28"
+        }
+      ],
+      "total_found": 3,
+      "truncated": false
+    },
+    {
+      "query_id": "q_004",
+      "results": [
+        {
+          "doc_id": "doc_008",
+          "title": "Acme Corp SA Website - About Us",
+          "snippet": "Acme Corp SA provides wealth management, investment advisory, and securities trading services to institutional and high-net-worth clients across Europe and Asia.",
+          "source": "Company Website",
+          "relevance_score": 0.90,
+          "doc_type": "website",
+          "date": "2024-04-01"
+        },
+        {
+          "doc_id": "doc_002",
+          "title": "Acme Corp SA Annual Report 2023",
+          "snippet": "Revenue breakdown: Asset Management (45%), Securities Trading (35%), Advisory Services (20%). Total AUM: CHF 2.3 billion. Client composition: 60% institutional, 40% private clients.",
+          "source": "Company Filing",
+          "relevance_score": 0.93,
+          "doc_type": "annual_report",
+          "date": "2024-03-30"
+        }
+      ],
+      "total_found": 2,
+      "truncated": false
+    },
+    {
+      "query_id": "q_005",
+      "results": [],
+      "total_found": 0,
+      "truncated": false
+    }
+  ]
+}

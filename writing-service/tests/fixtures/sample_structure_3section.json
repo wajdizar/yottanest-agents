@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "report_type": "compliance_profile",
+    "subject_name": "Acme Corp SA",
+    "subject_type": "company",
+    "jurisdiction": "Switzerland",
+    "purpose": "KYC compliance assessment for onboarding",
+    "audience": "compliance team",
+    "tone": "formal"
+  },
+  "sections": [
+    {
+      "section_id": "sec_01",
+      "title": "Corporate Structure and Ownership",
+      "purpose": "Document the legal structure and identify beneficial owners",
+      "requirements": [
+        "Legal entity type and registration details",
+        "Ownership structure including intermediate holding companies",
+        "Ultimate beneficial owners (UBOs) with >25% ownership",
+        "Board composition and key management"
+      ],
+      "must_include": [
+        "Registration number",
+        "Date of incorporation",
+        "Registered address",
+        "UBO identification"
+      ],
+      "target_words": 400,
+      "depends_on": [],
+      "evidence_types": ["corporate_registry", "annual_report", "ownership_filing"]
+    },
+    {
+      "section_id": "sec_02",
+      "title": "Regulatory Compliance History",
+      "purpose": "Assess past regulatory interactions and compliance track record",
+      "requirements": [
+        "FINMA licensing status",
+        "Historical regulatory actions or sanctions",
+        "Compliance certifications held",
+        "Any pending investigations"
+      ],
+      "must_include": [
+        "Current license status",
+        "Regulatory body oversight"
+      ],
+      "target_words": 350,
+      "depends_on": ["sec_01"],
+      "evidence_types": ["regulatory_filing", "news_article", "sanction_list"]
+    },
+    {
+      "section_id": "sec_03",
+      "title": "Risk Assessment and Recommendations",
+      "purpose": "Synthesize findings into risk profile and monitoring recommendations",
+      "requirements": [
+        "Overall risk rating with justification",
+        "Key risk indicators identified",
+        "Mitigating factors",
+        "Recommended monitoring frequency and focus areas"
+      ],
+      "must_include": [
+        "Risk rating",
+        "Monitoring recommendations"
+      ],
+      "target_words": 300,
+      "depends_on": ["sec_01", "sec_02"],
+      "evidence_types": ["risk_assessment", "internal_policy"]
+    }
+  ],
+  "global_instructions": "Maintain objective, evidence-based tone. All claims must be traceable to source documents. Flag any gaps in available information.",
+  "terminology": {
+    "UBO": "Ultimate Beneficial Owner - natural person with >25% ownership or control",
+    "PEP": "Politically Exposed Person",
+    "AML": "Anti-Money Laundering"
+  }
+}

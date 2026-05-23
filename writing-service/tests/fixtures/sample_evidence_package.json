@@ -1,0 +1,245 @@
+{
+  "evidence_pool": [
+    {
+      "evidence_id": "ev_001",
+      "content": "Acme Corp SA, registered on 15 March 2010, Registration No. CHE-123.456.789. Registered office: Bahnhofstrasse 42, 8001 Zürich, Switzerland. Purpose: Financial services, asset management, and investment advisory.",
+      "source": {
+        "system": "Swiss Commercial Registry",
+        "doc_id": "doc_001",
+        "url": "https://zefix.ch/en/search/entity/CHE-123456789"
+      },
+      "provenance": {
+        "query_ids": ["q_001"],
+        "retrieval_date": "2024-04-01",
+        "relevance_scores": {"q_001": 0.95}
+      },
+      "doc_type": "corporate_registry",
+      "date": "2024-01-15",
+      "title": "Acme Corp SA - Commercial Registry Extract",
+      "confidence": 1.0
+    },
+    {
+      "evidence_id": "ev_002",
+      "content": "Board of Directors: Hans Mueller (Chairman), Maria Schmidt (CEO), Pierre Dubois (CFO). The company maintains subsidiaries in Luxembourg and Singapore. Revenue breakdown: Asset Management (45%), Securities Trading (35%), Advisory Services (20%). Total AUM: CHF 2.3 billion.",
+      "source": {
+        "system": "Company Filing",
+        "doc_id": "doc_002",
+        "url": null
+      },
+      "provenance": {
+        "query_ids": ["q_001", "q_002", "q_004"],
+        "retrieval_date": "2024-04-01",
+        "relevance_scores": {"q_001": 0.88, "q_002": 0.75, "q_004": 0.93}
+      },
+      "doc_type": "annual_report",
+      "date": "2024-03-30",
+      "title": "Acme Corp SA Annual Report 2023",
+      "confidence": 1.0
+    },
+    {
+      "evidence_id": "ev_003",
+      "content": "Ultimate Beneficial Owners: Mueller Family Trust (45%), Schmidt Holdings AG (30%), Public shareholders (25%). Mueller Family Trust is controlled by Hans Mueller (Swiss national, DOB 1965).",
+      "source": {
+        "system": "Transparency Register",
+        "doc_id": "doc_003",
+        "url": null
+      },
+      "provenance": {
+        "query_ids": ["q_001", "q_003"],
+        "retrieval_date": "2024-04-01",
+        "relevance_scores": {"q_001": 0.92, "q_003": 0.68}
+      },
+      "doc_type": "ownership_filing",
+      "date": "2024-02-28",
+      "title": "Ownership Structure Filing",
+      "confidence": 1.0
+    },
+    {
+      "evidence_id": "ev_004",
+      "content": "Acme Corp SA holds a securities dealer license (Category 2) issued by FINMA on 01 July 2012. License status: Active. Last supervision date: December 2023.",
+      "source": {
+        "system": "FINMA",
+        "doc_id": "doc_004",
+        "url": "https://www.finma.ch/en/authorisation/licensed-institutions"
+      },
+      "provenance": {
+        "query_ids": ["q_002"],
+        "retrieval_date": "2024-04-01",
+        "relevance_scores": {"q_002": 0.97}
+      },
+      "doc_type": "regulatory_filing",
+      "date": "2024-01-01",
+      "title": "FINMA Licensed Institutions Register",
+      "confidence": 1.0
+    },
+    {
+      "evidence_id": "ev_005",
+      "content": "In 2019, Acme Corp SA received a warning letter from FINMA regarding delayed suspicious activity reporting. The company has since enhanced its compliance procedures.",
+      "source": {
+        "system": "Financial News Archive",
+        "doc_id": "doc_005",
+        "url": null
+      },
+      "provenance": {
+        "query_ids": ["q_002", "q_003"],
+        "retrieval_date": "2024-04-01",
+        "relevance_scores": {"q_002": 0.82, "q_003": 0.70}
+      },
+      "doc_type": "news_article",
+      "date": "2019-06-15",
+      "title": "Swiss Financial News - Regulatory Updates",
+      "confidence": 0.9
+    },
+    {
+      "evidence_id": "ev_006",
+      "content": "Search performed for: Acme Corp SA, Hans Mueller, Maria Schmidt, Pierre Dubois, Mueller Family Trust, Schmidt Holdings AG. No matches found in OFAC SDN List.",
+      "source": {
+        "system": "OFAC",
+        "doc_id": "doc_006",
+        "url": "https://sanctionssearch.ofac.treas.gov"
+      },
+      "provenance": {
+        "query_ids": ["q_002"],
+        "retrieval_date": "2024-04-01",
+        "relevance_scores": {"q_002": 0.99}
+      },
+      "doc_type": "sanction_list",
+      "date": "2024-04-01",
+      "title": "OFAC Sanctions Search Results",
+      "confidence": 1.0
+    },
+    {
+      "evidence_id": "ev_007",
+      "content": "Financial services companies in Switzerland with securities dealer licenses carry moderate inherent risk. Key factors: jurisdiction risk (low for Switzerland), product complexity (medium), client base diversity.",
+      "source": {
+        "system": "Internal Policy",
+        "doc_id": "doc_007",
+        "url": null
+      },
+      "provenance": {
+        "query_ids": ["q_003"],
+        "retrieval_date": "2024-04-01",
+        "relevance_scores": {"q_003": 0.85}
+      },
+      "doc_type": "risk_assessment",
+      "date": "2024-01-01",
+      "title": "Internal Risk Assessment Framework",
+      "confidence": 1.0
+    },
+    {
+      "evidence_id": "ev_008",
+      "content": "Acme Corp SA provides wealth management, investment advisory, and securities trading services to institutional and high-net-worth clients across Europe and Asia.",
+      "source": {
+        "system": "Company Website",
+        "doc_id": "doc_008",
+        "url": "https://www.acmecorp.ch/about"
+      },
+      "provenance": {
+        "query_ids": ["q_004"],
+        "retrieval_date": "2024-04-01",
+        "relevance_scores": {"q_004": 0.90}
+      },
+      "doc_type": "website",
+      "date": "2024-04-01",
+      "title": "Acme Corp SA Website - About Us",
+      "confidence": 0.85
+    }
+  ],
+  "section_bundles": [
+    {
+      "section_id": "sec_01",
+      "evidence_ids": ["ev_001", "ev_002", "ev_003"],
+      "requirement_coverage": {
+        "Legal entity type and registration details": ["ev_001"],
+        "Ownership structure including intermediate holding companies": ["ev_002", "ev_003"],
+        "Ultimate beneficial owners (UBOs) with >25% ownership": ["ev_003"],
+        "Board composition and key management": ["ev_002"]
+      }
+    },
+    {
+      "section_id": "sec_02",
+      "evidence_ids": ["ev_004", "ev_005", "ev_006"],
+      "requirement_coverage": {
+        "FINMA licensing status": ["ev_004"],
+        "Historical regulatory actions or sanctions": ["ev_005"],
+        "Compliance certifications held": ["ev_004"],
+        "Any pending investigations": ["ev_005", "ev_006"]
+      }
+    },
+    {
+      "section_id": "sec_03",
+      "evidence_ids": ["ev_002", "ev_003", "ev_005", "ev_007"],
+      "requirement_coverage": {
+        "Overall risk rating with justification": ["ev_007"],
+        "Key risk indicators identified": ["ev_005", "ev_007"],
+        "Mitigating factors": ["ev_002", "ev_003", "ev_007"],
+        "Recommended monitoring frequency and focus areas": ["ev_007"]
+      }
+    }
+  ],
+  "shared_registry": [
+    {
+      "evidence_id": "ev_002",
+      "section_ids": ["sec_01", "sec_03"],
+      "canonical_interpretation": "Acme Corp SA Annual Report 2023 provides corporate governance information relevant to both ownership structure analysis and risk assessment through its disclosure of management, subsidiaries, and financial metrics."
+    },
+    {
+      "evidence_id": "ev_003",
+      "section_ids": ["sec_01", "sec_03"],
+      "canonical_interpretation": "Ownership structure filing establishes the UBO framework and is relevant to both corporate structure documentation and risk assessment due to concentration of control."
+    },
+    {
+      "evidence_id": "ev_005",
+      "section_ids": ["sec_02", "sec_03"],
+      "canonical_interpretation": "The 2019 FINMA warning letter represents a historical compliance issue that informs both regulatory history assessment and ongoing risk evaluation."
+    }
+  ],
+  "gap_reports": [
+    {
+      "section_id": "sec_01",
+      "satisfied_requirements": [
+        "Legal entity type and registration details",
+        "Ownership structure including intermediate holding companies",
+        "Ultimate beneficial owners (UBOs) with >25% ownership",
+        "Board composition and key management"
+      ],
+      "partial_coverage": [],
+      "missing_requirements": []
+    },
+    {
+      "section_id": "sec_02",
+      "satisfied_requirements": [
+        "FINMA licensing status",
+        "Historical regulatory actions or sanctions"
+      ],
+      "partial_coverage": [
+        {
+          "requirement": "Compliance certifications held",
+          "coverage_level": "partial",
+          "available_evidence_ids": ["ev_004"],
+          "missing_aspects": ["ISO certifications", "industry body memberships"]
+        }
+      ],
+      "missing_requirements": []
+    },
+    {
+      "section_id": "sec_03",
+      "satisfied_requirements": [
+        "Overall risk rating with justification",
+        "Key risk indicators identified",
+        "Mitigating factors"
+      ],
+      "partial_coverage": [
+        {
+          "requirement": "Recommended monitoring frequency and focus areas",
+          "coverage_level": "weak",
+          "available_evidence_ids": ["ev_007"],
+          "missing_aspects": ["Specific monitoring schedule", "Trigger events for review"]
+        }
+      ],
+      "missing_requirements": []
+    }
+  ],
+  "retrieval_iterations": 2,
+  "needs_followup": false
+}
